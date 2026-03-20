@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-    <h1>Die Welt der Pandas</h1>
+    <h1>im Reich der Pandas</h1>
 </header>
 <nav>
     <ul>
@@ -19,24 +19,65 @@
         <li><a href="#schutz">Schutz</a></li>
     </ul>
 </nav>
+<main>
+
 <section class="hero">
     <p>Der Große Panda ist eines der bekanntesten Tiere der Welt. Mit seinem schwarz-weißen Fell und seiner ruhigen Art begeistert er Menschen auf der ganzen Welt. Doch obwohl Pandas sehr beliebt sind, sind sie in der Natur selten und benötigen besonderen Schutz.</p>
+<button onclick="showFact()"> Panda-Fakten </button>
+    <p id="fact"></p>
 </section>
-<section class="steckbrief">
-    <h2>🐼 Steckbrief – Großer Panda</h2>
 
-    <div class="steckbrief-box">
-        <p><strong>Name:</strong> Großer Panda</p>
-        <p><strong>Wissenschaftlicher Name:</strong> Ailuropoda melanoleuca</p>
-        <p><strong>Familie:</strong> Bären (Ursidae)</p>
-        <p><strong>Lebensraum:</strong> Bergwälder in China</p>
-        <p><strong>Größe:</strong> ca. 1,2 – 1,5 Meter</p>
-        <p><strong>Gewicht:</strong> 70 – 150 kg</p>
-        <p><strong>Nahrung:</strong> hauptsächlich Bambus</p>
-        <p><strong>Lebenserwartung:</strong> ca. 20 Jahre (in freier Wildbahn)</p>
-        <p><strong>Besonderheit:</strong> Schwarz-weißes Fell & „falscher Daumen“</p>
-    </div>
+<section id="steckbrief">
+    <h2>Steckbrief</h2>
+    <article>
+        <ul>
+            <li><strong>Name:</strong> Großer Panda</li>
+            <li><strong>Wissenschaftlich:</strong> Ailuropoda melanoleuca</li>
+            <li><strong>Gewicht:</strong> 70–150 kg</li>
+            <li><strong>Nahrung:</strong> Bambus</li>
+        </ul>
+    </article>
 </section>
+
+<section id="info">
+    <h2>Allgemeine Informationen</h2>
+    <p>Der Große Panda ist ein Säugetier aus der Familie der Bären...</p>
+</section>
+
+<section id="lebensraum">
+    <h2>Lebensraum</h2>
+    <p>Pandas leben in den Bergregionen Chinas...</p>
+</section>
+
+<section id="nahrung">
+    <h2>Nahrung</h2>
+    <p>Pandas fressen hauptsächlich Bambus...</p>
+</section>
+
+<section id="schutz">
+    <h2>Schutz</h2>
+    <p>Der Panda ist eine geschützte Tierart...</p>
+</section>
+
+<section>
+    <h2>Kontakt</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" id="name">
+        <button type="button" onclick="checkForm()">Senden</button>
+    </form>
+    <p id="message"></p>
+</section>
+
+</main>
+
+<footer>
+    <p>Projekt Informatik 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 
 
 
