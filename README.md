@@ -34,4 +34,5 @@ Ich habe KI genutzt, um Texte zu überarbeiten, Fehler im Code zu finden und mei
 
 Persönliche Hilfe:
 
-Ein großes Danke an meinen Vater, denn er kennt sich mit dem programmieren gut aus und setzt sich tagtäglich mit dies auseinander, daher konnte ich ihn oft um Rat bitten.
+Ein großes Danke an meinen Vater, denn er kennt sich mit dem programmieren gut aus und setzt sich tagtäglich mit dies auseinander, daher konnte ich ihn oft um Rat bitten. 
+
