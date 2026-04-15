@@ -4,48 +4,33 @@ Projekt: Panda Webseite
 Eine interaktive Infoseite über den Großen Panda
 
 Projektbeschreibung
-Dieses Projekt ist eine informative Webseite, die biologisches Wissen über den Großen Panda (Ailuropoda melanoleuca) modern und unterhaltsam präsentiert. Die Seite wurde im Rahmen des Informatikunterrichts erstellt. Ziel war es, eine saubere Struktur (HTML), ein ansprechendes Design (CSS) und erste interaktive Funktionen (JavaScript) zu kombinieren.
+In diesem Projekt habe ich eine Webseite über den Großen Panda erstellt. Ziel war es, biologische Infos übersichtlich und trotzdem interessant darzustellen. Die Seite ist im Informatikunterricht entstanden, wo wir mit HTML, CSS und JavaScript gearbeitet haben. Dabei ging es vor allem darum, eine klare Struktur zu erstellen, ein schönes Design zu gestalten und erste interaktive Funktionen einzubauen.
 
 Funktionen & Highlights
-Modernes Design: Ein "Panda-Farbschema" (Grün, Schwarz, Weiß) mit abgerundeten Karten-Layouts.
+Die Webseite hat ein einfaches, modernes Design im Panda-Stil mit den Farben Grün, Schwarz und Weiß sowie abgerundeten Elementen. Die Webseite wurde ausserdem von der WWF Webseite inspiriert geschrieben.
 
-Interaktive Elemente: * Ein Zufalls-Fakten-Generator, der spannende Infos per Klick anzeigt.
+Es gibt auch interaktive Features, zum Beispiel einen Zufalls-Fakten-Generator, der per Klick verschiedene Infos über Pandas anzeigt. Außerdem habe ich eine kleine Umfrage eingebaut, bei der sich der Text je nach Auswahl verändert.
 
-Eine Umfrage-Funktion mit dynamischem Text-Feedback.
-
-User Experience: Smooth-Scrolling-Effekt für eine flüssige Navigation auf der Seite.
-
-Responsive Header: Ein atmosphärisches Titelbild mit Text-Overlay.
+Für eine bessere Nutzererfahrung gibt es einen Smooth-Scrolling-Effekt, damit man sich leichter durch die Seite bewegen kann. Der Header enthält ein großes Titelbild mit Text darüber.
 
 Technische Details
-HTML5: Strukturierung mit semantischen Tags (<header>, <nav>, <main>, <section>).
+Die Struktur der Seite habe ich mit HTML5 und semantischen Tags wie <header>, <nav>, <main> und <section> aufgebaut.
 
-CSS3: * Einsatz von CSS-Variablen (:root) für ein einheitliches Branding.
+Für das Design habe ich CSS verwendet, unter anderem mit Variablen, damit alles einheitlich bleibt. Außerdem habe ich Flexbox genutzt, um die Navigation anzuordnen. Als Schriftart habe ich „Quicksand“ von Google Fonts eingebunden.
 
-Flexbox für die Ausrichtung der Navigationsleiste.
-
-Einbindung der Google Font "Quicksand" für einen modernen Look.
-
-JavaScript: * Manipulation des DOM (Document Object Model), um Texte live zu ändern.
-
-Verwendung von Math.random(), um Arrays auszulesen.
-
-Animationen mit setInterval (Einblende-Effekt).
+Mit JavaScript habe ich einfache Interaktionen umgesetzt, zum Beispiel das Verändern von Texten auf der Seite. Für den Zufalls-Fakten-Generator habe ich Math.random() verwendet. Kleine Animationen habe ich mit setInterval gemacht.
 
 Quellen & Danksagung
-Die Erstellung dieser Seite war ein Mix aus eigenständiger Recherche und wertvoller Unterstützung:
+Die Webseite basiert auf eigener Recherche und Unterstützung aus verschiedenen Quellen:
 
 Lernplattformen & Schule:
-
-Khan Academy: Die Grundlagen für den Aufbau von HTML und die Logik von CSS-Selektoren stammen aus den Kursen, die wir im Unterricht behandelt haben.
-
-Unterricht: Anwendung der gelernten Methoden zur Dateistruktur und Web-Entwicklung.
+Die Grundlagen zu HTML und CSS habe ich im Unterricht und mit Materialien wie Khan Academy gelernt und dann hier angewendet.
 
 Recherche & Inspiration:
+Die Inhalte über Pandas habe ich unter anderem an der WWF-Webseite orientiert.
 
-WWF: Die inhaltliche Tiefe und die Auswahl der Fakten wurden von der offiziellen WWF-Webseite inspiriert.
-
-KI-Unterstützung (Gemini, ChatGPT): Die KI hat mir geholfen, die Texte zu korrigieren, Code-Fehler zu finden (Debugging) und die Struktur des READMEs zu optimieren.
+KI-Unterstützung (Gemini, ChatGPT):
+Ich habe KI genutzt, um Texte zu überarbeiten, Fehler im Code zu finden und mein README klarer zu strukturieren.
 
 Persönliche Hilfe:
 
