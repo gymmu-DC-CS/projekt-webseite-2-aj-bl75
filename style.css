@@ -1,45 +1,104 @@
-body {
-    font-family: Arial;
-    margin: 0;
-    background-color: #f4f4f4;
+/* Schriftart von Google laden */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+:root {
+    --panda-green: #4BA145; /* Das typische WWF Grün */
+    --panda-dark: #222;
+    --panda-white: #ffffff;
+    --accent-yellow: #FFCE00; /* Für Buttons/Highlights */
+    --bg-soft: #f0f7ef;
 }
 
+body {
+    font-family: 'Quicksand', sans-serif; /* Schöne runde Schrift */
+    background-color: var(--bg-soft);
+    margin: 0;
+    color: var(--panda-dark);
+    scroll-behavior: smooth;
+}
+
+/* Header mit Bild-Overlay */
 header {
-    background-color: #222;
+    background: linear-gradient(rgba(75, 161, 69, 0.8), rgba(0, 0, 0, 0.5)), 
+                url('https://www.wwf.ch/sites/default/files/styles/hero_step_2_desktop/public/2017-09/Panda_WWF_GPN_114757.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 80px 20px;
+    border-bottom: 8px solid var(--panda-green);
+}
+
+header h1 { font-size: 3.5rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+
+/* Navigation wie beim Panda Club */
+nav {
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
+    display: flex;
+    justify-content: center;
     list-style: none;
-    text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
-}
-
-nav li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav a {
-    color: white;
+    color: var(--panda-dark);
     text-decoration: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s;
 }
 
-section {
-    padding: 40px;
-    max-width: 800px;
-    margin: auto;
+nav a:hover {
+    background: var(--panda-green);
+    color: white;
 }
 
-.hero {
+/* Karten-Design (Cards) */
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px; /* Extra rund für "Panda-Look" */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border-bottom: 5px solid #ddd;
+}
+
+h2 { color: var(--panda-green); font-size: 2rem; }
+
+/* Interaktive Quiz-Box */
+.quiz-box {
+    background: var(--panda-green);
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
     text-align: center;
-    background-color: #e8f5e9;
+    margin-top: 20px;
 }
 
 button {
-    padding: 10px;
-    margin-top: 10px;
+    background: var(--accent-yellow);
+    border: none;
+    padding: 12px 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #d4ab00;
+    transition: all 0.2s;
 }
+
+button:active { transform: translateY(4px); box-shadow: none; }
+
+/* Bild-Styling */
+img { border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }

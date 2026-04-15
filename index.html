@@ -22,6 +22,7 @@
 <main>
 
 <section class="hero">
+    <div class="hero-content"></div>
     <p>Der Große Panda ist eines der bekanntesten Tiere der Welt. Mit seinem schwarz-weißen Fell und seiner ruhigen Art begeistert er Menschen auf der ganzen Welt. Doch obwohl Pandas sehr beliebt sind, sind sie in der Natur selten und benötigen besonderen Schutz.</p>
 <button onclick="showFact()"> Panda-Fakten </button>
     <p id="fact"></p>
@@ -37,6 +38,15 @@
             <li><strong>Nahrung:</strong> Bambus</li>
         </ul>
     </article>
+    <section class="card">
+    <h2>Steckbrief Bild</h2>
+    <img 
+        src="https://www.elvirasbastelmaterial.de/tpl/download/panda_Steckbrief.jpg" 
+        alt="Panda Steckbrief Illustration" 
+        style="width:100%; height:auto; border-radius:12px;">
+    <p>
+        Ein anschauliches Bild zum Steckbrief des Großen Pandas </p>
+</section>
 </section>
 
 <section id="info">
@@ -49,38 +59,133 @@
     <p>Pandas leben in den Bergregionen Chinas...</p>
 </section>
 
-<section id="nahrung">
+<section id="nahrung" class="card">
     <h2>Nahrung</h2>
-    <p>Pandas fressen hauptsächlich Bambus...</p>
+
+    <article>
+        <h3>Ein Leben für den Bambus</h3>
+        <p>
+            Der Große Panda ist ein biologisches Phänomen. Obwohl er rein anatomisch zu den Raubtieren gehört,
+            ernährt er sich zu fast 99 % vegetarisch. Seine gesamte Existenz dreht sich um eine einzige Pflanze: 
+            den Bambus.
+        </p>
+    </article>
+
+    <article>
+        <h3>Warum nur Bambus?</h3>
+        <p>
+            Bambus ist das ganze Jahr über verfügbar und wächst in den Heimatregionen des Pandas im Überfluss.
+            Doch es gibt einen Haken: Bambus ist extrem nährstoffarm und besteht zu einem großen Teil aus
+            unverdaulicher Zellulose. Da der Darm des Pandas immer noch dem eines Fleischfressers gleicht,
+            kann er nur etwa 20 % der Nährstoffe aus der Pflanze verwerten.
+        </p>
+    </article>
+
+    <article>
+        <h3>Ein Vollzeitjob gegen den Hunger</h3>
+        <p>
+            Um bei dieser kargen Diät zu überleben, hat der Panda eine beeindruckende Strategie entwickelt:
+        </p>
+
+        <ul>
+            <li><strong>Die Menge:</strong> Ein ausgewachsener Panda muss täglich zwischen 12 und 38 kg Bambus fressen.</li>
+            <li><strong>Die Zeit:</strong> 10 bis 16 Stunden pro Tag verbringt er mit Fressen, den Rest der Zeit schläft oder ruht er.</li>
+            <li><strong>Die Technik:</strong> Mit seinem „Pseudo-Daumen“ schält er die harten Halme geschickt ab, um an das weiche Innere und die nährstoffreicheren Blätter zu gelangen.</li>
+        </ul>
+    </article>
+
+    <article>
+        <h3>Mehr als nur Stangen</h3>
+        <p>
+            Pandas fressen je nach Jahreszeit unterschiedliche Teile der Pflanze: im Frühjahr die zarten Sprösslinge, 
+            im Winter eher die harten Zweige. Ganz selten ergänzen sie ihren Speiseplan um andere Pflanzen, kleine Nagetiere oder Vögel – ein Überbleibsel ihrer Vorfahren als Allesfresser.
+        </p>
+        <p><strong>Fun Fact:</strong> Ein Panda kaut so kräftig, dass seine Kaumuskulatur ihm die typische rundliche Kopfform verleiht!</p>
+    </article>
 </section>
 
-<section id="schutz">
-    <h2>Schutz</h2>
-    <p>Der Panda ist eine geschützte Tierart...</p>
+<section id="bedrohung" class="card">
+    <h2>Bedrohung und Schutz: Eine Ikone kehrt zurück</h2>
+
+    <article>
+        <h3>Der Große Panda als Symbol</h3>
+        <p>
+            Der Große Panda ist das weltweite Symbol für den Artenschutz. Lange Zeit stand er auf der Liste 
+            der am stärksten bedrohten Tierarten der Welt. Doch dank beispielloser Bemühungen gibt es heute 
+            eine echte Erfolgsgeschichte zu erzählen.
+        </p>
+    </article>
+
+    <article>
+        <h3>Warum war der Panda in Gefahr?</h3>
+        <p>Die größten Bedrohungen für den Panda sind fast alle menschengemacht:</p>
+
+        <ul>
+            <li><strong>Verlust des Lebensraums:</strong> Durch den Bau von Straßen, Schienen und Siedlungen wurden die riesigen Bambuswälder in kleine „Inseln“ zerschnitten.</li>
+            <li><strong>Isolation:</strong> Wenn Waldstücke getrennt werden, können Pandas nicht mehr zueinander finden, um sich zu paaren. Das führt zu Inzucht und schwächt die Gesundheit der Art.</li>
+            <li><strong>Klimawandel:</strong> Bambus ist sehr empfindlich. Steigen die Temperaturen zu schnell, stirbt der Bambus in tieferen Lagen ab, bevor er in höheren Lagen nachwachsen kann.</li>
+        </ul>
+    </article>
+
+    <article>
+        <h3>Die Wende: Vom Aussterben gerettet</h3>
+        <p>
+            Im Jahr 2016 verkündete die Weltnaturschutzunion (IUCN) eine Sensation: Der Status des Großen Pandas 
+            wurde von „stark gefährdet“ auf „gefährdet“ herabgestuft. Das bedeutet nicht, dass er sicher ist, 
+            aber die Zahlen steigen wieder!
+        </p>
+        <p>Was hat geholfen?</p>
+
+        <ul>
+            <li><strong>Panda-Reservate:</strong> China hat über 60 Schutzgebiete geschaffen, die einen Großteil des Panda-Lebensraums abdecken.</li>
+            <li><strong>Waldkorridore:</strong> Bäume werden gepflanzt, um getrennte Waldstücke wieder zu verbinden, sodass Pandas wieder „wandern“ und neue Partner finden können.</li>
+            <li><strong>Strenge Gesetze:</strong> Wilderei wird in China hart bestraft, was die Jagd auf Pandas fast vollständig gestoppt hat.</li>
+            <li><strong>Zuchtprogramme:</strong> In Forschungsstationen wie Chengdu wird intensiv an der Zucht gearbeitet, um Pandas ggf. wieder in die Freiheit zu entlassen.</li>
+        </ul>
+    </article>
+
+    <article>
+        <h3>Eine wichtige Rolle für den Wald</h3>
+        <p>
+            Der Schutz des Pandas hilft nicht nur ihm selbst. Er gilt als „Flaggschiff-Art“. Da er so viel Platz 
+            und intakte Wälder braucht, rettet der Schutz seines Lebensraums automatisch auch tausende andere 
+            Pflanzen- und Tierarten (wie bunte Vögel oder den Goldstumpfnasenaffen), die im Schatten des Pandas leben.
+        </p>
+    </article>
+     <h2>Panda‑Statistik</h2>
+    <img 
+        src="https://cdn.shopify.com/s/files/1/0791/5202/1783/files/How_many_panda_are_left_by_2026.jpg?v=1768234333" 
+        alt="Statistik zur Anzahl der Pandas bis 2026" 
+        style="width:100%; height:auto; border-radius:12px;">
+    <p>
+        Diese Grafik zeigt eine Übersicht über die geschätzte Anzahl verbleibender Großer Pandas bis zum Jahr 2026.
+    </p>
+</section>
+<section id="interaktiv" class="card">
+    <h2>Deine Meinung!</h2>
+    <div class="quiz-box">
+        <p>Welche Eigenschaft am Panda findest du am coolsten?</p>
+        <div id="poll-container">
+            <button onclick="vote('Die Augenringe')">Die Augenringe</button>
+            <button onclick="vote('Den Daumen')">Der Extra-Daumen</button>
+            <button onclick="vote('Das Klettern')">Das Klettern</button>
+        </div>
+        <p id="poll-result" style="margin-top:15px; font-weight:bold;"></p>
+    </div>
 </section>
 
-<section>
-    <h2>Kontakt</h2>
-    <form>
-        <label>Name:</label>
-        <input type="text" id="name">
-        <button type="button" onclick="checkForm()">Senden</button>
-    </form>
-    <p id="message"></p>
+<section id="fun-fact" class="card" style="text-align: center;">
+    <h2>Wusstest du das schon?</h2>
+    <p id="fact-text">Klicke auf den Button für einen geheimen Panda-Fakt!</p>
+    <button onclick="nextFact()">Nächster Fakt 🐾</button>
 </section>
 
 </main>
 
 <footer>
-    <p>Projekt Informatik 2026</p>
-</footer>
+        <p>&copy; 2026 Informatikprojekt Gymnasium Muttenz</p>
+    </footer>
 
 <script src="script.js"></script>
-</body>
-</html>
-
-
-
-
 </body>
 </html>
